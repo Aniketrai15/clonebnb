@@ -1,0 +1,16 @@
+.carddiv{
+    height: 26em;
+    width: 20em;
+}
+
+.cardimg{
+    height: 19em;
+    width: 20em;
+    border-radius: 1em;
+    
+}
+
+.textdiv{
+    display: flex;
+    justify-content: space-between;
+}

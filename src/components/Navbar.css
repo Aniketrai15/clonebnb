@@ -1,0 +1,22 @@
+#navbarouterdiv{
+    border-bottom: 0.05em solid #E5E4E2;
+}
+
+.navbtn{
+    background-color: white;
+    border: none;
+}
+
+.ficon{
+    color: grey;
+}
+
+
+.btntext{
+    font-size: x-small;
+    color: grey;
+}
+
+#bnbbtn{
+    width: max-content;
+}
