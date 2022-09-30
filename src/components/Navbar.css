@@ -6,6 +6,9 @@
     background-color: white;
     border: none;
 }
+/* .navbtn:hover {
+    border-bottom: 0.25em solid grey;
+} */
 
 .ficon{
     color: grey;

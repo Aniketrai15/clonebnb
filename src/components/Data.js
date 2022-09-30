@@ -51,6 +51,7 @@ import {
 
 let rooms = [
     {
+      id:1,
       place: 'Agonda,India',
       img1 : agonda1,
       img2 : agonda2,
@@ -61,6 +62,7 @@ let rooms = [
       rating: '4.64'
     },
     {
+      id:2,
       place: 'Alibagh,India',
       img1 : alibaug1,
       img2 : alibaug2,
@@ -71,6 +73,7 @@ let rooms = [
       rating: '4.4'
     },
     {
+      id:3,
       place: 'Bhimtal,India',
       img1 : bhimtal1,
       img2 : bhimtal2,
@@ -81,6 +84,7 @@ let rooms = [
       rating: '4.84'
     },
     {
+      id:4,
       place: 'Canacona,India',
       img1 : canacona1,
       img2 : canacona2,
@@ -91,6 +95,7 @@ let rooms = [
       rating: '4.64'
     },
     {
+      id:5,
       place: 'Dapoli,India',
       img1 : dapoli1,
       img2 : dapoli2,
@@ -101,6 +106,7 @@ let rooms = [
       rating: '4.83'
     },
     {
+      id:6,
       place: 'Goa,India',
       img1 : goa1,
       img2 : goa2,
@@ -111,6 +117,7 @@ let rooms = [
       rating: '4.67'
     },
     {
+      id:7,
       place: 'Lonavla,India',
       img1 : lonavala1,
       img2 : lonavala2,
@@ -121,6 +128,7 @@ let rooms = [
       rating: '4.75'
     },
     {
+      id:8,
       place: 'Maldives',
       img1 : maldives1,
       img2 : maldives2,
@@ -131,6 +139,7 @@ let rooms = [
       rating: '5.0'
     },
     {
+      id:9,
       place: 'Mandrem,India',
       img1 : mandrem1,
       img2 : mandrem2,
@@ -141,6 +150,7 @@ let rooms = [
       rating: '4.69'
     },
     {
+      id:10,
       place: 'Marchula,India',
       img1 : marchula1,
       img2 : marchula2,
@@ -151,6 +161,7 @@ let rooms = [
       rating: '4.64'
     },
     {
+      id:11,
       place: 'Morjim,India',
       img1 : morjim1,
       img2 : morjim2,
@@ -161,6 +172,7 @@ let rooms = [
       rating: '4.74'
     },
     {
+      id:12,
       place: 'Mumbai,India',
       img1 : mumbai1,
       img2 : mumbai2,
@@ -171,6 +183,7 @@ let rooms = [
       rating: '5.0'
     },
     {
+      id:13,
       place: 'Nagaon,India',
       img1 : nagaon1,
       img2 : nagaon2,
@@ -181,6 +194,7 @@ let rooms = [
       rating: '5.0'
     },
     {
+      id:14,
       place: 'Nainital,India',
       img1 : nainital1,
       img2 : nainital2,
@@ -191,6 +205,7 @@ let rooms = [
       rating: '4.68'
     },
     {
+      id:15,
       place: 'Ramnagar,India',
       img1 : ramnagar1,
       img2 : ramnagar2,
@@ -201,6 +216,7 @@ let rooms = [
       rating: '4.70'
     },
     {
+      id:16,
       place: 'Vagator,India',
       img1 : vagator1,
       img2 : vagator2,

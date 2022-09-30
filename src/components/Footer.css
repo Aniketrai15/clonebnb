@@ -1,0 +1,13 @@
+
+li{
+    list-style: none;
+}
+
+.navdiv{
+    border-top: 0.05em solid #E5E4E2;
+    background-color: #F7F7F7;
+}
+
+.navcont1{
+    border-bottom: 0.05em solid #E5E4E2;
+}

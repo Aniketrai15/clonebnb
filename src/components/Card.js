@@ -1,10 +1,10 @@
 import React from 'react'
 import './Card.css'
 
-export default function Card({ place, img1, img2, img3, host, price, date, rating }) {        // props destructuring
+export default function Card({ place, img1, img2, img3, host, price, date, rating,key}) {        // props destructuring
     return (
         <div className='container-fluid carddiv pt-3'>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id={`carouselExampleControls${key}`} class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src={img1} class="d-block w-100 cardimg" alt="first"/>
@@ -16,11 +16,11 @@ export default function Card({ place, img1, img2, img3, host, price, date, ratin
                         <img src={img3} class="d-block w-100 cardimg" alt="third"/>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target={`#carouselExampleControls${key}`} data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target={`#carouselExampleControls${key}`} data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>

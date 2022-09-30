@@ -5,7 +5,7 @@ import Card from './Card'
 export default function Carddata() {
 
   return (
-    <div style={{display:"flex",justifyContent:"space-around",flexWrap:"wrap"}}>
+    <div style={{display:"flex",justifyContent:"space-around",flexWrap:"wrap", paddingLeft:"4em", paddingRight:"4em", marginTop: "2em"}}>
         {rooms.map((room,un)=>{
             return(
                 <Card
@@ -17,7 +17,7 @@ export default function Carddata() {
                 price={room.price}
                 date={room.date}
                 rating={room.rating}
-                key={un}
+                key={room.id-1}
                 
             />
             )
